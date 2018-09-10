@@ -1,0 +1,52 @@
+$crontab -l
+lists all the cron activity
+
+$crontab -e
+edit the crontab
+
+$select-editor
+select editor for cron
+
+# ┌───────────── minute (0 - 59)
+# │ ┌───────────── hour (0 - 23)
+# │ │ ┌───────────── day of month (1 - 31)
+# │ │ │ ┌───────────── month (1 - 12)
+# │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday;
+# │ │ │ │ │                                       7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * *  command_to_execute
+
+
+* * * * * echo "Hello" >> test.txt
+
+Execute Every Minute of Every hour Every day of month , every month ,every day of week
+
+30 5 * * * echo "Hello" >> test.txt
+
+Execute the command at 5:30 AM
+
+30 5 1 * * echo "Hello" >> test.txt
+
+Execute the command at 5:30 AM of 1st day of Every month
+
+30 5 22 1 * echo "Happy Birthday" >> test.txt
+
+Execute on 22 January 5:30AM
+
+30 5 * * 1 echo "Hello" >>test.txt
+
+Execute on Every Monday
+
+
+0 0 1,15 * * echo "Hello" >> test.txt 
+
+Execute onfirst and 15th day of the Month 
+
+*/10 * * * * echo 'Hello' >> test.txt
+
+Run Every ten minutes
+
+0 0-5 * * * echo "Hello" >> test.txt
+
+Run from Midnight to 5AM
