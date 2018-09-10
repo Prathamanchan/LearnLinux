@@ -1,3 +1,4 @@
+https://crontab.guru
 $crontab -l
 lists all the cron activity
 
@@ -6,6 +7,9 @@ edit the crontab
 
 $select-editor
 select editor for cron
+
+$Remove files from Crontab
+$ crontab -r
 
 # ┌───────────── minute (0 - 59)
 # │ ┌───────────── hour (0 - 23)
@@ -50,3 +54,8 @@ Run Every ten minutes
 0 0-5 * * * echo "Hello" >> test.txt
 
 Run from Midnight to 5AM
+
+
+30 Mon-Fri 9am-5pm
+
+*/30 9-17 ** 1-5 echo 'Hello' >> test.txt
