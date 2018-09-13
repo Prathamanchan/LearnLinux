@@ -1,0 +1,15 @@
+#Creating Personal Commands using Functions
+
+Cannot execute using sh. sh invokes a subshell to execute. subshell cannot invoke these functions
+
+
+Execute: $ . func.sh
+$ youtube
+$ byebye
+
+you can use this feature to make your own command or rename the existing command
+
+To delete the changes type
+
+$unset youtube
+$unset byebye

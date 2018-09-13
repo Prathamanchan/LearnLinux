@@ -1,0 +1,13 @@
+Before using this command know that 
++ The recipient user must be logged in else error message is displayed
++ The recipient user must have enabled message reception
++ Only Super User can receive messages 
+
+
+On Super user terminal:
+
+$sudo login
+$mesg y   # Enable Message //mesg n to disable
+
+
+

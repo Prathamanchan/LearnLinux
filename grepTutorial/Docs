@@ -1,0 +1,9 @@
+GREP- globally search a regular expression and print
+
+$ grep word text.txt
+$ grep -i word text.txt #Case insensitive
+$ grep -i -n word text.txt #Line Number
+$ grep -c word text.txt  #Total Count
+$ grep -v word text.txt  #Output which do not have word
+
+
