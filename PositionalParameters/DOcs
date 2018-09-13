@@ -1,0 +1,6 @@
+Variables in Shell script can hold different kind/types of varibales no needed to specifically mention them
+a=25
+a="Hello There"
+
+This is allowed
+

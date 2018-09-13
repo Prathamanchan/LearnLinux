@@ -1,0 +1,6 @@
+$sort    (CTRL+D) after entering data
+$sort filename
+
+Sorts the filename in alphabetic order
+$sort animals
+$sort sports

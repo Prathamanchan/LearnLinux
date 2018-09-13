@@ -1,0 +1,9 @@
+This is similar to Sort, but here it sorts based on Delimiter
+the default delimiter is tab.
+
+If I want to seperate first and third column from filr players it will look like
+
+$ cut -d"-" -f 1,3 players
+
+-d Specifies the delimiter
+-f Fields

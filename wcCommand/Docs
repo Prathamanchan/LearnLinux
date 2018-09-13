@@ -1,0 +1,12 @@
+$ file *
+
+File gives us a clear overview of files in the directory
+can be used instead of ls
+
+$wc filename
+
+Displays no of lines,words,Characters etc
+
+$wc -l jazzy #Line Count
+$wc -w jazzy #WordCount
+$wc -c jazzt #Character
