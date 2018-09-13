@@ -1,0 +1,17 @@
+$cat test
+
+This is an ASCII file
+
+-If I want to convert all the characters in test file to Uppercase
+
+$dd if=test of=out conv=ucase
+
+if-input file
+of-output file
+
+There are hell a lot of things that can be done with dd, with dd we canformat diskdrive and floppy drives
+conv iso file of os and install
+
+$dd if=test of=out conv=ebcdic
+
+conv ASCII test to European format
