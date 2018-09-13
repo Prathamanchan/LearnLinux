@@ -1,0 +1,2 @@
+This is same as While but the Body inside the loop is evaluated only if 
+the condition is false.
