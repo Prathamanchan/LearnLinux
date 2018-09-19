@@ -1,0 +1,10 @@
+git clone https://github.com/Prathamanchan/ComputerSecurity
+git status
+Always add, Commit and push
+git add index.html
+git commit -m "added index.html"
+Sign in:  $git config --global user.email "prathamanchan22@gmail.com"
+git config --global user.name "Prathamanchan"
+git push  // Sync
+git pull
+[Esc] :wq
