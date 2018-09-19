@@ -1,0 +1,31 @@
+$who - Shows who are logged into the system
+$echo $SHELL  - Displays the type of shell being used
+$type ps - shows the path where ps is saved
+$echo $PATH
+
+$ls -a -- Show hidden files
+$ls --all
+$ls -d
+
+$man ls  --> More about manual
+$man -k directory  --->Shows list of operation that canbe done on directory
+                       useful when we forget command
+$apropos directory  --->operatins can be performed on diretory like rmdir mkdir
+
+$whatis ls  --> small description on ls
+$ls --help  --> all the arguments for ls
+
+
+Tab Command
+cd   //Go Home
+History
+Ctrl+R  //Run through History
+Run Multiple commands  
+$sudo apt update; sudo apt upgrade
+$sudo apt update && sudo apt upgrade
+$cd ..
+Back to Previous Path : $cd -
+Take Arguments from Prev Command: Alt+.
+Add sudo to last command: $sudo!!
+Moving to Beginning:  $ CTRL+A
+Moving to End $ CTRL+E
